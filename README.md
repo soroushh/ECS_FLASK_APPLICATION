@@ -36,3 +36,8 @@ definition in `AWS ECS Task Definitions` section.
 
 # Improvements
 A CI/CD pipeline can be added to this project.
+
+# Hitting the endpoint
+After creating the cluster and a service in it in `AWS ECS`, you can find the 
+`Public IPv4 address` or `Public IPv4 DNS` of the related `EC2` instance and 
+hit it in your browser and see your app's endpoints.
